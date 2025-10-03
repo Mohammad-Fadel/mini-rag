@@ -1,0 +1,58 @@
+{
+	"info": {
+		"_postman_id": "20228a91-162f-4c72-8fa5-9a8ef7e85c58",
+		"name": "mini-rag-app",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "48991221",
+		"_collection_link": "https://fadelcivil2012ainshams-6206599.postman.co/workspace/Mohammad-Fadel's-Workspace~0bb5963b-b54c-437c-8876-4d338fee77f4/collection/48991221-20228a91-162f-4c72-8fa5-9a8ef7e85c58?action=share&source=collection_link&creator=48991221"
+	},
+	"item": [
+		{
+			"name": "welcome-request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{api}}/welcome",
+					"host": [
+						"{{api}}"
+					],
+					"path": [
+						"welcome"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"requests": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"requests": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "api",
+			"value": ""
+		}
+	]
+}
